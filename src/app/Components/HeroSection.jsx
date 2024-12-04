@@ -4,7 +4,7 @@ import { Star } from 'lucide-react'
 
 const HeroSection = () => {
     return (
-        <div className=" w-full min-h-[80vh] bg-[url('/image/section.png')] bg-fixed bg-cover bg-center h-screen">
+        <div className=" w-full h-screen bg-[url('/image/section.png')] bg-fixed bg-cover bg-center ">
             <div className='absolute inset-0 left-52 top-28 p-4 sm:p-6 md:p-8 lg:p-10'>
                 <div className='container mx-auto '>
                     <div className='flex flex-col lg:flex-row items-center gap-8 lg:gap-12'>

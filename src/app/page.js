@@ -3,6 +3,8 @@ import EasySteps from "./Components/EasySteps";
 import HeroSection from "./Components/HeroSection";
 import LearningEnvironment from "./Components/LearningEnv";
 import NavbarComp from "./Components/Navbar";
+import TeachersComp from "./Components/Teachers";
+
 
 
 export default function Home() {
@@ -12,7 +14,8 @@ export default function Home() {
       <DrawerComp />
       <HeroSection />
       <LearningEnvironment />
-      <EasySteps/>
+      <EasySteps />
+     <TeachersComp />
     </div>
   );
 }
